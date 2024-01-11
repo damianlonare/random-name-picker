@@ -36,6 +36,7 @@ body {
     background-color: beige;
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 10px;
 }
 
 .master-container {
@@ -50,4 +51,5 @@ body {
     background-color: burlywood;
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 10px;
 }

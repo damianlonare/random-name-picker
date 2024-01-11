@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/index.css">
+    <script src="./js/index.js"></script>
     <title>Random Name Picker</title>
 </head>
 <body>
@@ -28,24 +29,23 @@
                             <div class="flex-container">
                                 <div class="flex-item flex-item-size-100">
                                     <h2>lista concursantes</h2>
-                                    <ul>
-                                        <li>Juan</li>
+                                    <ul id="items">
                                     </ul>
                                 </div>
                                 <div class="flex-item flex-item-size-100">
-                                    <form action="addParticipant">
-                                        <input type="text" name="nombre" id="nombre">
-                                        <input type="submit" value="Agregar">
+                                    <form id="addParticipant">
+                                        <input type="text" name="nombre" id="item">
+                                        <input id="submit" type="submit" value="Agregar">
                                     </form>            
                                 </div>
                             </div>
                         </div>
-                        <div class="flex-item flex-item-size-100 winners-list">
+                        <!-- <div class="flex-item flex-item-size-100 winners-list">
                             <h2>lista de ganadores</h2>
                             <ul>
                                 <li>Pedro</li>
                             </ul>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
