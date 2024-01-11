@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.flex-container {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.flex-item {
+    background-color: antiquewhite;
+    min-width: 0;
+}
+
+.flex-item-size-25 {
+    flex-basis: 25%;
+}
+
+.flex-item-size-50 {
+    flex-basis: 50%;
+}
+
+.flex-item-size-100 {
+    flex-basis: 100%;
+}
