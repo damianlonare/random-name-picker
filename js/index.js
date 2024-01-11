@@ -1,6 +1,9 @@
 window.onload = () => {
     const form = document.querySelector("#addParticipant");
  
+    let items = document.getElementById("items");
+    let submit = document.getElementById("submit");
+
     form.addEventListener("submit", addItem);
 }
 
