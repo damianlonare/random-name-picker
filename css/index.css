@@ -13,7 +13,6 @@ body {
 }
 
 .flex-item {
-    background-color: antiquewhite;
     min-width: 0;
 }
 
@@ -27,4 +26,28 @@ body {
 
 .flex-item-size-100 {
     flex-basis: 100%;
+}
+
+.winners-list {
+    margin-top: 30px;
+}
+
+.rulete-container {
+    background-color: beige;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.master-container {
+    background-color: antiquewhite;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    height: 100vh;
+}
+
+.forms-container {
+    background-color: burlywood;
+    padding-left: 10px;
+    padding-right: 10px;
 }

@@ -7,35 +7,44 @@
     <title>Random Name Picker</title>
 </head>
 <body>
-    <div class="flex-container">
+    <div class="flex-container master-container">
         <div class="flex-item flex-item-size-100">
             <h1>Random Name Picker</h1>
         </div>
         <div class="flex-item flex-item-size-100">
             <div class="flex-container">
-                <div class="flex-item flex-item-size-50">
+                <div class="flex-item flex-item-size-50 rulete-container">
                     <div class="flex-container">
                         <div class="flex-item flex-item-size-100">
-                            ruleta
+                            <h2>ruleta</h2>
                         </div>
                         <div class="flex-item flex-item-size-50">Girar ruleta</div>
                         <div class="flex-item flex-item-size-50">Reiniciar ruleta</div>
                     </div>
                 </div>
-                <div class="flex-item flex-item-size-50">
+                <div class="flex-item flex-item-size-50 forms-container">
                     <div class="flex-container">
                         <div class="flex-item flex-item-size-100">
                             <div class="flex-container">
                                 <div class="flex-item flex-item-size-100">
-                                    lista concursante
+                                    <h2>lista concursantes</h2>
+                                    <ul>
+                                        <li>Juan</li>
+                                    </ul>
                                 </div>
                                 <div class="flex-item flex-item-size-100">
-                                    Agregar concursante
+                                    <form action="addParticipant">
+                                        <input type="text" name="nombre" id="nombre">
+                                        <input type="submit" value="Agregar">
+                                    </form>            
                                 </div>
                             </div>
                         </div>
-                        <div class="flex-item flex-item-size-100">
-                            lista de ganadores
+                        <div class="flex-item flex-item-size-100 winners-list">
+                            <h2>lista de ganadores</h2>
+                            <ul>
+                                <li>Pedro</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
